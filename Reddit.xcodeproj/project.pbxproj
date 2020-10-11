@@ -23,6 +23,7 @@
 		1A4715AA2531F15800DB4EC2 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4715A92531F15800DB4EC2 /* PostTableViewCell.swift */; };
 		1A4715B22531F2C300DB4EC2 /* PostCellConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4715B12531F2C300DB4EC2 /* PostCellConfigurable.swift */; };
 		1A4715BA2531FE7400DB4EC2 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4715B92531FE7400DB4EC2 /* Navigator.swift */; };
+		1AB6A746253319600048DBAE /* UIActivityIndicatorView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6A745253319600048DBAE /* UIActivityIndicatorView+Helper.swift */; };
 		1AEDD6A4253222CA0038A414 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDD6A3253222CA0038A414 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		1A4715A92531F15800DB4EC2 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		1A4715B12531F2C300DB4EC2 /* PostCellConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellConfigurable.swift; sourceTree = "<group>"; };
 		1A4715B92531FE7400DB4EC2 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		1AB6A745253319600048DBAE /* UIActivityIndicatorView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Helper.swift"; sourceTree = "<group>"; };
 		1AEDD6A3253222CA0038A414 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 				1A344B5B2531A32A00A2E55C /* ViewModels */,
 				1A344B582531A2CD00A2E55C /* Resources */,
 				1A344B5A2531A2FD00A2E55C /* Requests */,
+				1AB6A744253319050048DBAE /* View+Helpers */,
 			);
 			path = Reddit;
 			sourceTree = "<group>";
@@ -209,6 +212,14 @@
 				1A4715A92531F15800DB4EC2 /* PostTableViewCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		1AB6A744253319050048DBAE /* View+Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1AB6A745253319600048DBAE /* UIActivityIndicatorView+Helper.swift */,
+			);
+			path = "View+Helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +358,7 @@
 				1A344B6C2531A77100A2E55C /* BaseRequest.swift in Sources */,
 				1A344B662531A42900A2E55C /* Posts.swift in Sources */,
 				1A4715BA2531FE7400DB4EC2 /* Navigator.swift in Sources */,
+				1AB6A746253319600048DBAE /* UIActivityIndicatorView+Helper.swift in Sources */,
 				1A344B7F2531C78D00A2E55C /* Dynamic.swift in Sources */,
 				1AEDD6A4253222CA0038A414 /* WebViewController.swift in Sources */,
 				1A344B222531A27900A2E55C /* AppDelegate.swift in Sources */,

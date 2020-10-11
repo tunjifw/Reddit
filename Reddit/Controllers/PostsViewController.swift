@@ -72,16 +72,8 @@ class PostsViewController: UIViewController {
         case .loaded:
             spinner.stopAnimating()
         case .loading:
-            showSpinner()
+            spinner.showInCenterOf(view: view)
         }
-    }
-    
-    private func showSpinner() {
-        view.addSubview(spinner)
-        spinner.translatesAutoresizingMaskIntoConstraints = false
-        spinner.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        spinner.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        spinner.startAnimating()
     }
 }
 
@@ -119,3 +111,8 @@ extension PostsViewController: UISearchBarDelegate {
         }
     }
 }
+
+
+/// NOTE: WARNINGS IN CONSOLE
+/// https://developer.apple.com/forums/thread/112095
+/// https://stackoverflow.com/questions/39793459/xcode-8-ios-10-starting-webfilter-logging-for-process
